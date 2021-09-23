@@ -6,17 +6,17 @@ pipeline {
      stages {  
          stage('Build') {  
              steps {  
-                 sh 'Build phase is executing'  
+                 echo 'Build phase is executing'  
              }
          }
           stage('Test') {  
              steps {  
-                 sh 'Test phase is executing'  
+                 echo 'Test phase is executing'  
              }
          }
           stage('Deploy') {  
              steps {  
-                 sh 'Deploy phase is executing'  
+                 echo 'Deploy phase is executing'  
              }
          }     
        }
